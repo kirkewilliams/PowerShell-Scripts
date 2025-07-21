@@ -1,0 +1,1 @@
+﻿gwmi -class win32_computersystem | select model | format-list 
