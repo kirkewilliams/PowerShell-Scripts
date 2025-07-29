@@ -1,0 +1,1 @@
+﻿Get-ADOrganizationalUnit -Properties CanonicalName -Filter * | Sort-Object CononicalName | Format-Table CanonicalName, DistinguishedName | Out-File C:\temp\OUs.txt -Encoding utf8
