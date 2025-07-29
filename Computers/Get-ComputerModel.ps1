@@ -1,1 +1,1 @@
-﻿gwmi -class win32_computersystem | select model | format-list 
+﻿gwmi -class win32_computersystem | Select-Object model | format-list 
