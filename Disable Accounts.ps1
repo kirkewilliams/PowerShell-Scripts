@@ -1,5 +1,4 @@
-﻿#Change from Visual Studio Code
-Import-Module ActiveDirectory
+﻿Import-Module ActiveDirectory
 
 $list = Import-Csv <path to csv>
 
